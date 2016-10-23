@@ -28,7 +28,7 @@ h1 {
 color: #b20953;
   font-family: "Sigmar One", serif;
   font-size: 3rem;
-  padding: 0 0 .4em;
+  padding: .2em, .3em, .5em;
   margin-top: .4em;
   margin-bottom: .4em;
 }
@@ -73,6 +73,7 @@ li {
 nav {
   padding: 0 10px;
   size: 3rem;
+  font-size:
 }
 
 h2 {
