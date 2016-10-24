@@ -74,9 +74,11 @@ li {
   text-decoration: none;
 }
 
-nav {
+.navbar {
   padding: 0 0 .8em;
   color: #ffe500;
+  padding: .5em;
+  margin: 0;
 }
 
 h2 {
@@ -84,7 +86,7 @@ h2 {
   font-family: "Sigmar One", serif;
   font-size: 1.875rem;
   text-align: left;
-  padding: 10px, 5px;
+  padding: 5px;
 }
 
 p {
