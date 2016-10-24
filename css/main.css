@@ -71,7 +71,7 @@ li {
 
 nav {
   padding: 0 10px;
-  color: #cc1465;
+  color: #ffe500;
 }
 
 h2 {
@@ -89,5 +89,5 @@ p {
 
 img {
   width: 100%;
-  display: block;
+  display: inline;
 }
