@@ -21,7 +21,7 @@ header {
 
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 h1 {
@@ -77,8 +77,6 @@ li {
 .navbar {
   padding: 0 0 .8em;
   color: #ffe500;
-  padding: .5em;
-  margin: 0;
 }
 
 h2 {
@@ -98,5 +96,5 @@ p {
 
 img {
   width: 100%;
-  display: inline;
+  display: inline-block;
 }
