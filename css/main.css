@@ -55,6 +55,7 @@ li a {
   font-size: .75rem;
   text-decoration: none;
   background-color: #b2a212;
+  font-size: 1.125rem;
 }
 
 footer {
@@ -93,5 +94,4 @@ img {
 
 li {
   display: inline-block;
-  font-size: 1.125rem;
 }
