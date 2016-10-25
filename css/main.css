@@ -25,7 +25,6 @@ body {
 }
 
 h1 {
-  display: block;
   text-align: center;
   font-size: 3rem;
   color: #b20953;
@@ -41,17 +40,15 @@ a {
   text-decoration: none;
   list-style-type: none;
   padding: .2em .5em .3em;
+  display: inline-block;
 }
 
 a:hover {
   background-color: #2f2d13;
   border-radius: 4px;
-  margin: 0;
-  padding: 0;
 }
 
 li a {
-  display: inline-block;
   list-style-type: none;
   border-radius: 4px;
   text-align: center;
@@ -69,7 +66,7 @@ footer {
 
 }
 
-.navbar {
+nav {
   padding: 0 0 .8em;
   color: #ffe500;
 }
@@ -92,4 +89,9 @@ p {
 img {
   width: 100%;
   display: inline-block;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.125rem;
 }
