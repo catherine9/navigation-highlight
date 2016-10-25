@@ -1,27 +1,21 @@
 html {
   box-sizing: border-box;
-  background-color: #fff;
   text-align: center;
-  font-family: "Sigmar One";
-  line-height: 1.5em;
-}
-
-header {
-  font-family: Georgia, serif;
-  padding: 10px;
-  line-height: 1.5em;
-  background-color: #ffe500;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+header {
+  padding: 10px;
+  background-color: #ffe500;
+}
+
 body {
   margin: 0;
-  padding: 0;
+  line-height: 1.5;
+  color: #2f2d13;
 }
 
 h1 {
@@ -29,14 +23,13 @@ h1 {
   font-size: 3rem;
   color: #b20953;
   margin: 0;
-  padding: .002em, .1em;
-  font-family: "Sigmar One";
+  font-family: "Sigmar One", cursive;
 }
 
 a {
   color: #fff;
   border-radius: 4px;
-  line-height: 1.5em;
+  font-size: 1.125rem;
   text-decoration: none;
   list-style-type: none;
   padding: .2em .5em .3em;
@@ -44,11 +37,10 @@ a {
 }
 
 a:hover {
-  background-color: #2f2d13;
-  border-radius: 4px;
+  background-color: #cc1465;
 }
 
-li a {
+li {
   list-style-type: none;
   border-radius: 4px;
   text-align: center;
@@ -56,14 +48,15 @@ li a {
   text-decoration: none;
   background-color: #b2a212;
   font-size: 1.125rem;
+  display: inline-block;
 }
 
 footer {
   background-color: #ffe500;
   text-decoration: none;
-  margin: .3em;
-  padding: 0 .75em;
-  font-family: Georgia, serif;
+  padding: 10px;
+  text-align: center;
+  font-size: .75em;
 
 }
 
@@ -74,10 +67,9 @@ nav {
 
 h2 {
   color: #cc1465;
-  font-family: "Sigmar One", serif;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   text-align: left;
-  padding: 5px;
 }
 
 p {
@@ -88,10 +80,16 @@ p {
 }
 
 img {
+  max-width: 100%;
+  display: block;
   width: 100%;
-  display: inline-block;
 }
 
-li {
-  display: inline-block;
+ul {
+  padding: 0;
+  margin: .75em;
+}
+
+main {
+  padding: 0 10px;
 }
